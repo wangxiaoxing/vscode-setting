@@ -1,0 +1,33 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula",
+    "files.associations": {
+        ".vue":"html"
+    },
+    "editor.formatOnType": true,
+    "editor.detectIndentation": false,
+    "vetur.validation.template": false,
+    "prettier.tabWidth": 2,
+    "prettier.eslintIntegration": true,
+     
+     "extensions.autoUpdate": false,
+     "prettier.singleQuote": true,
+     "prettier.semi":false,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+
+    // //配置eslint
+    "eslint.autoFixOnSave": true,
+    // "eslint.validate": [
+    //    "javascript",
+    //    "javascriptreact",
+    //    "html",
+    //    { "language": "vue", "autoFix": true }
+    //  ],
+    //  "eslint.options": {
+    //     "plugins": ["html"]
+    //  },
+     //为了符合eslint的两个空格间隔原则
+     "editor.tabSize": 2
+}
